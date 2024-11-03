@@ -20,3 +20,12 @@
     python process.py
     ```
     dblp-sax-parser使用参考：[dblp-sax-parser](https://pypi.org/project/dblp-sax-parser/)
+
+#### 11.3补充，分割后的数据集
+看了一下数据量，好像总共其实是1100w多行；
+每100w行划分为一个文件，注意第一个切片第一行是属性，后续为实际数据；
+总共12个切片，前11每个均为100w行，最后一个不完整，尽量使用靠前几个切片的数据，后面有些数据少字段；
+通过下面内容进行下载：
+通过百度网盘分享的文件：split_data.zip
+链接：https://pan.baidu.com/s/1kozi6mstKuG4iWHurbdwjA?pwd=mznf 
+提取码：mznf
